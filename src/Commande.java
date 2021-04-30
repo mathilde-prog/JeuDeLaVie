@@ -1,7 +1,7 @@
 package src; 
 
 /**
- * La classe Commande est une classe abstraite représentant une commande. . 
+ * La classe Commande est une classe abstraite représentant une commande. 
  * @author Mathilde MOTTAY
  */
 public abstract class Commande {

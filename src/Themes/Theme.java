@@ -12,13 +12,19 @@ import src.PanelImage;
  */
 public abstract class Theme {
 
-    // Jeu de la vie 
+    /**
+     * Jeu de la vie 
+     */
     protected JeuDeLaVie jeu; 
 
-    // Interface graphique du jeu de la vie 
+    /**
+     * Interface graphique du jeu de la vie
+     */ 
     private JeuDeLaVieUI jeuUI; 
 
-    // Zoom du jeu 
+    /**
+     * Zoom du jeu 
+     */
     protected int zoom; 
     
     /**

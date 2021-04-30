@@ -108,7 +108,7 @@ public class JeuDeLaVie implements Observable {
     }
 
     /**
-     * Retourne la cellule qui se trouve dans la grille aux coordonnées passées en paramètre.
+     * Retourne la cellule qui se trouve dans la grille aux coordonnées passées en paramètres.
      * Retourne null si les coordonnées passées en paramètres ne sont pas valides. 
      * @param x Coordonnée en abscisse 
      * @param y Coordonnée en ordonnée 

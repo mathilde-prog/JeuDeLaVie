@@ -18,6 +18,12 @@ public class VisiteurDayNight extends Visiteur {
     }
 
     /**
+     * Les règles d'évolution du mode Day & Night sont les suivantes : 
+     * - Une cellule morte naît à l'étape suivante si elle est entourée de 3, 6, 7 ou 8 voisines mortes 
+     * - Une cellule vivante survit à l'étape suivante si elle est entourée de 3, 4, 6, 7 ou 8 voisines vivantes
+     */
+
+     /**
      * Visite une cellule vivante 
      * @param cellule Cellule vivante visitée 
      */

@@ -17,6 +17,13 @@ public class VisiteurHighLife extends Visiteur {
     }
 
     /**
+     * Les règles d'évolution du mode HighLife sont les suivantes : 
+     * - Une cellule morte naît à l'étape suivante si elle est entourée de 3 ou 6 voisines vivantes
+     * - Une cellule vivante survit à l'étape suivante si elle est entourée de 2 ou 3 voisines vivantes
+     */
+
+
+    /**
      * Visite une cellule vivante 
      * @param cellule Cellule vivante visitée 
      */

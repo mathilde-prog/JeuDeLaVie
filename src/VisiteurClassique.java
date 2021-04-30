@@ -18,6 +18,13 @@ public class VisiteurClassique extends Visiteur {
     } 
 
     /**
+     * Les règles d'évolution du mode classique sont les suivantes : 
+     * - Si une cellule possède moins de 2 voisines, elle va mourir de solitude.
+     * - Si une cellule possède plus de 3 voisines, elle va mourir d'étouffement. 
+     * - Si un emplacement vide possède 3 voisines, une nouvelle cellule va naître.  
+     */
+
+    /**
      * Visite une cellule vivante 
      * @param cellule Cellule vivante visitée 
      */

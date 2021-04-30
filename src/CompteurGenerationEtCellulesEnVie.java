@@ -31,8 +31,8 @@ public class CompteurGenerationEtCellulesEnVie implements Observateur {
         int nbCellulesEnVie = 0; 
 
         // Parcours de la grille du jeu 
-        for(int x = 0; x < jeu.getXMax(); x++){
-            for(int y = 0; y < jeu.getYMax(); y++){
+        for(int x = 0; x <= jeu.getXMax(); x++){
+            for(int y = 0; y <= jeu.getYMax(); y++){
                 if(jeu.getGrilleXY(x,y).estVivante()){
                     // On incrémente le nombre de cellules en vie si la cellule est vivante. 
                     nbCellulesEnVie++; 
